@@ -31,7 +31,7 @@ app.use(flash());
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
-app.listen(3000);
+app.listen(PORT);
 
 //connect mongoosejs
 var mongoose = require('mongoose');
